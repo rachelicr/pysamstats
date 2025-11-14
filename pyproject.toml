@@ -2,7 +2,8 @@
 # Note: pysam is NOT included here because it needs to be installed first
 # Users should install: pip install pysam, then pip install pysamstats
 # Or when installing from GitHub, pip will handle this via install_requires
-requires = ["setuptools>=59.0", "wheel", "Cython>=0.29.12,<4", "numpy"]
+# Python 3.14+ requires Cython 3.0.11+ for compatibility
+requires = ["setuptools>=59.0", "wheel", "Cython>=3.0.11", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [tool.pysamstats]

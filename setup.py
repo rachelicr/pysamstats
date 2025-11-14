@@ -102,7 +102,7 @@ setup(
         "numpy",
     ],
     setup_requires=[
-        "Cython>=0.29.12",
+        "Cython>=3.0.11",  # 3.0.11+ required for Python 3.14 compatibility
         "numpy",
     ],
     packages=find_packages(),
