@@ -1,3 +1,7 @@
+# Forked to fix cython
+
+python -m pip install git+https://github.com/rachelicr/pysamstats.git
+
 pysamstats
 ==========
 
